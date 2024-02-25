@@ -1,0 +1,30 @@
+
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex: 1 0 300px; /* Adjust the width as per your design */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.grid-item {
+  flex: 1 0 300px; /* Adjust the width as per your design */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+
+  background: linear-gradient(45deg, #f9f9f9 50%, #e0e0e0 50%); /* Odd-even gradient effect */
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.3s ease-in-out;
+
+  &:hover {
+    background-position: 0 0; /* Adjust as needed for the hover effect */
+  }
+}
